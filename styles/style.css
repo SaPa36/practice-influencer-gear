@@ -85,3 +85,127 @@ nav li a{
 .company-img-container img{
     padding-right: 50px;
 }
+
+/* popular styles */
+.popular-container-collection-title{
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-size: 1.85rem;
+    font-weight: 600;
+}
+
+.popular-container-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.popular-container .popular-container-img{
+    margin-left: 200px;
+    gap: 20px;
+}
+
+.popular-container .card{
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+/* featured style */
+.featured{
+    display: flex;
+    margin-left: 165px;
+    margin-top: 100px;
+}
+
+.featured-img{
+    margin-right: 96px;
+}
+
+
+.featured-title{
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+}
+.featured-description{
+    color: rgb(108, 108, 108);
+    font-weight: 700;
+}
+
+/* footer style */
+footer{
+    margin-top: 100px;
+    background-color: rgb(2, 2, 29);
+    text-align: center;
+}
+
+.footer-content{
+    padding: 30px;
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+font-size: 1.5rem;
+}
+footer p{
+    color: rgb(255, 255, 255); 
+}
+/* responsive for mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 5px;
+        margin: 0;
+    }
+    nav,
+    nav > ul{
+        flex-direction: column;
+    }
+    .journey-container,
+    .featured{
+        flex-direction: column-reverse;
+    }
+    .journey-content{
+        margin-top: 30px;
+        padding: 5px;
+        width: 90%;
+    }
+    .journey-img img{
+        width: 90%;
+        padding: 5px;
+    }
+    .company-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        margin-left: 0;
+        align-items: center;
+        width: 90%;
+    }
+    .company-img-container img{
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    .popular-container-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .popular-container .popular-container-img{
+        margin-left: 20px;
+        gap: 20px;
+    }
+    
+    .popular-container .card{
+        padding: 10px;
+        width: 90%;
+    }
+    .featured{
+        margin: 5px;
+    }
+    .featured-img{
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    .featured-img img{
+       width: 90%;
+    }
+    
+}
