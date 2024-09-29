@@ -1,0 +1,87 @@
+/* shared style */
+body {
+    font-family: 'Lato',sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.text-black{
+    color: rgb(58, 58, 58);
+}
+
+.btn-primary{
+    border-radius: 41px; 
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Header style */
+header{
+    padding: 50px 240px;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: 1050px 170px;
+    
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+}
+
+.journey-container{
+    display: flex;
+}
+
+.journey-content{
+    width: 582px;
+    padding-top: 150px;
+    margin-right: 250px;
+}
+
+.journey-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.journey-description{
+    font-weight: 600;
+}
+
+.journey-img img{
+    padding-top: 50px;
+}
+
+/* logos style */
+.company-img-container{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.company-img-container img{
+    padding-right: 50px;
+}
